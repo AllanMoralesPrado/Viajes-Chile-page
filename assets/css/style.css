@@ -48,3 +48,13 @@ svg{
 button{
     color: rgb(12,202,239);
 }
+
+/*Footer*/
+
+#Footer{
+    background-color: rgb(12,202,239);
+}
+
+.fab{
+    color: #ffffff;
+}
