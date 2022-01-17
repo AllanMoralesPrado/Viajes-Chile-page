@@ -31,6 +31,20 @@ svg{
     height: auto;
 }
 
+@media (max-width: 767.98px) {  
+    #swapper {   
+        display:flex;
+        flex-direction: column-reverse;  
+    }  
+    .swap-B {
+        order : 1;
+        margin-top: .5rem;   
+    }  
+    .swap-A {
+        order : 2;
+     } 
+ }
+
 /*Destacados*/
 
 .card{
@@ -38,8 +52,7 @@ svg{
 }
 
 .card-img-top {
-    width: 100%;
-    height: 10vw;
+    height: 140px;
     object-fit: cover;
 }
 
