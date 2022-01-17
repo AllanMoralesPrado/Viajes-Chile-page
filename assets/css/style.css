@@ -42,3 +42,9 @@ svg{
     height: 10vw;
     object-fit: cover;
 }
+
+/*Contacto*/
+
+button{
+    color: rgb(12,202,239);
+}
