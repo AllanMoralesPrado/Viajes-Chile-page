@@ -62,6 +62,17 @@ button{
     color: rgb(12,202,239);
 }
 
+/* Referencia (Lineas 66 a 74): https://medium.com/mkdir-awesome/how-to-change-the-bootstrap-5-tooltip-background-and-arrow-color-67e6c5aea510*/
+.tooltip-inner {
+    background-color: rgb(12,202,239);
+    box-shadow: 0px 0px 4px black;
+    opacity: 1 !important;
+}
+
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: rgb(12,202,239) !important;
+}
+
 /*Footer*/
 
 #Footer{
